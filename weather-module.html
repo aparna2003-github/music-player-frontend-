@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather-Based Music Player</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Weather-Based Music Player</h1>
+            <div id="weather-info">
+                <p>Fetching weather...</p>
+            </div>
+        </header>
+        
+        <main>
+            <section id="playlist">
+                <h2>Recommended Songs</h2>
+                <ul id="song-list">
+                    <!-- Songs will be added dynamically -->
+                </ul>
+            </section>
+            
+            <section id="music-player">
+                <audio id="audio-player" controls>
+                    <source src="" id="audio-source">
+                    Your browser does not support the audio element.
+                </audio>
+                <div class="controls">
+                    <button id="prev">⏮</button>
+                    <button id="play">▶</button>
+                    <button id="next">⏭</button>
+                </div>
+            </section>
+        </main>
+    </div>
+</body>
+</html>
